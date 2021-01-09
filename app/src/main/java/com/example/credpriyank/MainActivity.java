@@ -84,23 +84,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void check_answer(View v){
         TextView t = (TextView)findViewById(R.id.bottom_bar);
-        String initial_text = t.getText().toString();
         Button b = (Button)v;
         String answer = b.getText().toString();
         boolean correct = false;
         for (int i=0;i<correct_answers.length;i++){
             if(correct_answers[i].equalsIgnoreCase(answer)){
-                Toast.makeText(this, "Your answer is correct.", Toast.LENGTH_LONG).show();
                 correct = true;
-                t.setText(R.string.bottom_bar_text);
                 break;
             }
         }
-        if (!correct){
-            Toast.makeText(this, "Your answer is incorrect. Try again.", Toast.LENGTH_LONG).show();
-            if (!t.getText().equals(R.string.bottom_bar_val_1)) {
-                t.setText(initial_text);
-            }
+        if (correct){
+            t.setText("Correct Answer");
+        }
+        else{
+            t.setText("Incorrect Answer");
         }
     }
 }

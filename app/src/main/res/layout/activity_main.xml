@@ -27,8 +27,6 @@
                 android:onClick="toggle_contents"
                 android:focusable="true"
                 android:background="#00008B"
-                android:drawableEnd="@android:drawable/arrow_down_float"
-                android:drawableRight="@android:drawable/arrow_down_float"
                 android:padding="10dp"
                 android:layout_marginBottom="1dp"
                 android:textColor="#fff"/>
@@ -93,8 +91,6 @@
                 android:onClick="toggle_contents"
                 android:focusable="true"
                 android:background="#00008B"
-                android:drawableEnd="@android:drawable/arrow_down_float"
-                android:drawableRight="@android:drawable/arrow_down_float"
                 android:padding="10dp"
                 android:layout_marginBottom="1dp"
                 android:textColor="#fff"/>
@@ -162,8 +158,6 @@
                 android:onClick="toggle_contents"
                 android:focusable="true"
                 android:background="#00008B"
-                android:drawableEnd="@android:drawable/arrow_down_float"
-                android:drawableRight="@android:drawable/arrow_down_float"
                 android:padding="10dp"
                 android:layout_marginBottom="1dp"
                 android:textColor="#fff"/>
