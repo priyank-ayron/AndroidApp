@@ -29,7 +29,9 @@
                 android:background="#00008B"
                 android:padding="10dp"
                 android:layout_marginBottom="1dp"
-                android:textColor="#fff"/>
+                android:textColor="#fff"
+                android:drawableEnd="@android:drawable/arrow_down_float"
+                android:drawableRight="@android:drawable/arrow_down_float"/>
 
             <!--content to hide/show -->
             <LinearLayout
@@ -93,7 +95,9 @@
                 android:background="#00008B"
                 android:padding="10dp"
                 android:layout_marginBottom="1dp"
-                android:textColor="#fff"/>
+                android:textColor="#fff"
+                android:drawableEnd="@android:drawable/arrow_down_float"
+                android:drawableRight="@android:drawable/arrow_down_float"/>
 
             <!--content to hide/show -->
             <LinearLayout
@@ -160,7 +164,9 @@
                 android:background="#00008B"
                 android:padding="10dp"
                 android:layout_marginBottom="1dp"
-                android:textColor="#fff"/>
+                android:textColor="#fff"
+                android:drawableEnd="@android:drawable/arrow_down_float"
+                android:drawableRight="@android:drawable/arrow_down_float"/>
 
             <!--content to hide/show -->
             <LinearLayout
