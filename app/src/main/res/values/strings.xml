@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cred Priyank</string>
+    <string name="bottom_bar_val_1">Answer the 1st question</string>
+    <string name="bottom_bar_val_2">Answer the 2nd question</string>
+    <string name="bottom_bar_val_3">Answer the 3rd question</string>
+    <string name="bottom_panel_default_info">Select a question</string>
+    <string name="bottom_bar_text">Select another question now.</string>
+
+</resources>

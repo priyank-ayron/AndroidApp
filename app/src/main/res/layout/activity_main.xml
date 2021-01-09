@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE4E1"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- activity_info layout file -->
+            <!-- Clickable title -->
+            <TextView
+                android:id="@+id/help_title_gest0"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Question 1"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="toggle_contents"
+                android:focusable="true"
+                android:background="#00008B"
+                android:drawableEnd="@android:drawable/arrow_down_float"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:padding="10dp"
+                android:layout_marginBottom="1dp"
+                android:textColor="#fff"/>
+
+            <!--content to hide/show -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/txt_help_gest0">
+
+                <TextView
+                    android:text="Which is India's national animal?"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:background="#87CEFA"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="#A3E4D7"
+                    android:onClick="check_answer"
+                    android:text="Tiger">
+
+                </Button>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="#A3E4D7"
+                    android:onClick="check_answer"
+                    android:text="Lion">
+
+                </Button>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="#A3E4D7"
+                    android:onClick="check_answer"
+                    android:text="Cow">
+
+                </Button>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/help_title_gest1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Question 2"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="toggle_contents"
+                android:focusable="true"
+                android:background="#00008B"
+                android:drawableEnd="@android:drawable/arrow_down_float"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:padding="10dp"
+                android:layout_marginBottom="1dp"
+                android:textColor="#fff"/>
+
+            <!--content to hide/show -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/txt_help_gest1">
+
+                <TextView
+                    android:text="Which is India's national flower?"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:background="#87CEFA"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="#A3E4D7"
+                    android:onClick="check_answer"
+                    android:text="Rose">
+
+                </Button>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="#A3E4D7"
+                    android:onClick="check_answer"
+                    android:text="Lotus">
+
+                </Button>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="#A3E4D7"
+                    android:onClick="check_answer"
+                    android:text="Marigold">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/help_title_gest2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Question 3"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="toggle_contents"
+                android:focusable="true"
+                android:background="#00008B"
+                android:drawableEnd="@android:drawable/arrow_down_float"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:padding="10dp"
+                android:layout_marginBottom="1dp"
+                android:textColor="#fff"/>
+
+            <!--content to hide/show -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/txt_help_gest2">
+
+                <TextView
+                    android:text="Which is India's capital?"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:background="#87CEFA"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="#A3E4D7"
+                    android:onClick="check_answer"
+                    android:text="New Delhi">
+
+                </Button>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="#A3E4D7"
+                    android:onClick="check_answer"
+                    android:text="Jaipur">
+
+                </Button>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="#A3E4D7"
+                    android:onClick="check_answer"
+                    android:text="Mumbai">
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_gravity="bottom">
+
+    <TextView
+        android:id="@+id/bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_panel_default_info"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="#9c27b0"
+        android:padding="10dp"
+        android:textColor="#fff"/>
+    </RelativeLayout>
+
+</LinearLayout>
